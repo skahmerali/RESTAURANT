@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Singup from './components/singup/singup';
+// import Login from './components/login/login';
+// import Dashbord from './components/dashbord/dashbord';
+import Nav from './components/navigation/navigation'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* <Singup />
+      <br />
+      <br />
+      <Login /> */}
+      <Nav />
+  </div>
   );
 }
 
